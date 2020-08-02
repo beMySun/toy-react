@@ -1,6 +1,4 @@
-# toy-react
-
-A Toy React
+# A Toy React Project
 
 ```js
 import { ToyReact, Component } from './ToyReact';
@@ -11,8 +9,7 @@ class MyComponent extends Component {
   }
 }
 
-const App = <MyComponent name="kk" id="id" />;
+const App = <MyComponent name="kk" />;
 
 ToyReact.render(App, document.body); // 😍😍😍
-
 ```
