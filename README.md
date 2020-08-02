@@ -11,5 +11,5 @@ class MyComponent extends Component {
 
 const App = <MyComponent name="kk" />;
 
-ToyReact.render(App, document.body); // 😍😍😍
+ToyReact.render(App, document.getElementById('root')); // 😍😍😍
 ```
