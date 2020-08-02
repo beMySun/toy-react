@@ -8,4 +8,4 @@ class MyComponent extends Component {
 
 const element = <MyComponent name="kk" />;
 
-ToyReact.render(element, document.body);
+ToyReact.render(element, document.getElementById('root'));
