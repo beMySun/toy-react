@@ -7,12 +7,12 @@ import { ToyReact, Component } from './ToyReact';
 
 class MyComponent extends Component {
   render() {
-    return <div> This is awosome ! </div>;
+    return <div> This is awsome ! </div>;
   }
 }
 
-const element = <MyComponent name="kk" id="id" />;
+const App = <MyComponent name="kk" id="id" />;
 
-ToyReact.render(element, document.body);
+ToyReact.render(App, document.body); // 😍😍😍
 
 ```
