@@ -1,0 +1,21 @@
+{
+  "name": "toy-react",
+  "version": "1.0.0",
+  "description": "A Toy React",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development webpack-dev-server"
+  },
+  "author": "KK",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/plugin-transform-react-jsx": "^7.10.4",
+    "@babel/preset-env": "^7.8.7",
+    "babel-loader": "^8.0.6",
+    "cross-env": "^7.0.2",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2"
+  }
+}
