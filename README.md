@@ -3,15 +3,15 @@
 A Toy React
 
 ```js
-import { ToyReact, Component } from './ToyReact.js';
+import { ToyReact, Component } from './ToyReact';
 
 class MyComponent extends Component {
   render() {
-    return <div> render something.</div>;
+    return <div> This is awosome ! </div>;
   }
 }
 
-const element = <MyComponent name="kk" id="id"></MyComponent>;
+const element = <MyComponent name="kk" id="id" />;
 
 ToyReact.render(element, document.body);
 
