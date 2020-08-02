@@ -1,5 +1,7 @@
 # A Toy React Project
 
+> 亲手打造一个react, 挖掘更多React实现细节。
+
 ```js
 import { ToyReact, Component } from './ToyReact';
 
